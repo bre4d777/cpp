@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+  for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+      break;
+    }
+    if (i == 3) {
+      continue;
+    }
+    std::cout << i << std::endl;
+  }
+  return 0;
+}
